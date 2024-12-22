@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #1F41BB;
+}
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.review {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: left;
+}
+
+.review h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.review p {
+  font-size: 1em;
+  margin: 5px 0;
+}
+
+.review a {
+  color: #1F41BB;
+  text-decoration: none;
+}
+
+.review a:hover {
+  text-decoration: underline;
+}
